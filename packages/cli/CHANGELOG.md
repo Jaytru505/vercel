@@ -1,5 +1,16 @@
 # vercel
 
+## 37.3.1
+
+### Patch Changes
+
+- Combine Partial Prerendering lambdas for revalidation and dynamic resumes. ([#12064](https://github.com/vercel/vercel/pull/12064))
+
+- Added support for Partial Fallback Prerendering ([#12036](https://github.com/vercel/vercel/pull/12036))
+
+- Updated dependencies [[`b3540096a`](https://github.com/vercel/vercel/commit/b3540096a39dd8b24b250aa5ad808c8445b5f484), [`e7016f9b0`](https://github.com/vercel/vercel/commit/e7016f9b033e88a33a89bf90ae655069f687c72f)]:
+  - @vercel/next@4.3.8
+
 ## 37.3.0
 
 ### Minor Changes
