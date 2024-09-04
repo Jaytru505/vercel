@@ -1,0 +1,25 @@
+# GetCertByIdResponseBody
+
+## Example Usage
+
+```typescript
+import { GetCertByIdResponseBody } from "@vercel/sdk/models/operations";
+
+let value: GetCertByIdResponseBody = {
+    id: "<id>",
+    createdAt: 3340.18,
+    expiresAt: 1764.99,
+    autoRenew: false,
+    cns: ["<value>"],
+};
+```
+
+## Fields
+
+| Field              | Type               | Required           | Description        |
+| ------------------ | ------------------ | ------------------ | ------------------ |
+| `id`               | *string*           | :heavy_check_mark: | N/A                |
+| `createdAt`        | *number*           | :heavy_check_mark: | N/A                |
+| `expiresAt`        | *number*           | :heavy_check_mark: | N/A                |
+| `autoRenew`        | *boolean*          | :heavy_check_mark: | N/A                |
+| `cns`              | *string*[]         | :heavy_check_mark: | N/A                |
